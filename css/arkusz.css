@@ -1,0 +1,61 @@
+﻿/* yt miniatura po najechaniu myszką wyświetlenie ikonki youtube */
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container2:hover .yt-miniatura {
+  opacity: 1;
+}
+
+.container2:hover .middle {
+  opacity: 0.8;
+}
+
+.plik1 {
+	position: absolute;
+	right: 70%;
+	width: 25%;
+	height: 25%;
+}
+
+.plik2 {
+	position: absolute;
+	left: 37%;
+	width: 25%;
+	height: 25%;
+}
+
+.plik3 {
+	position: absolute;
+	left: 70%;
+	width: 25%;
+	height: 25%;
+}
+
+#pliki {
+	position: relative;
+	bottom: 80%;
+}
+
+.flaga {
+	position: relative;
+	left: 80%;
+}
+
+.flaga2 {
+	position: relative;
+	left: 50%;
+}
+
+.nawigacja {
+	position: relative;
+	left: 50%;
+}

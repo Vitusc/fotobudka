@@ -1,0 +1,80 @@
+/* Styles for page */
+
+body {
+  color: #4B4B4B;
+  font-family: sans-serif;
+}
+body a {
+  cursor: pointer;
+  color: #4B4B4B;
+  text-decoration: none;
+}
+body section {
+  margin-bottom: 90px;
+}
+body section h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+body section p, body section a {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+span {
+  letter-spacing: 0px;
+}
+
+p {
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 28px;
+}
+
+/* Styles for Accordion */
+.toggle2:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.toggle2 .toggle-title2 {
+  position: relative;
+  display: block;
+  border-top: 1px solid #dddddd;
+  margin-bottom: 6px;
+}
+.toggle2 .toggle-title2 h3 {
+  font-size: 24px;
+  margin: 0px;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 200;
+}
+.toggle2 .toggle-inner2 {
+  padding: 7px 25px 10px 25px;
+  display: none;
+  margin: -7px 0 6px;
+}
+.toggle2 .toggle-inner2 div {
+  max-width: 100%;
+}
+.toggle2 .toggle-title2 .title-name {
+  display: block;
+  padding: 25px 25px 14px;
+}
+.toggle2 .toggle-title2 a i {
+  font-size: 42px;
+  margin-right: 1px;
+}
+.toggle2 .toggle-title2 i {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  transition: all 0.3s ease;
+  margin: 20px;
+  right: 0;
+}
+.toggle2 .toggle-title2.active i {
+}
